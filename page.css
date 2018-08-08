@@ -1,0 +1,35 @@
+/* alter styles to show case features */
+.nav {
+  width: 50%;
+  top: unset;
+  left: unset;
+  position: relative;
+}
+
+.comet__nav {
+  position: relative;
+}
+
+.comet__mobile .mobile-nav {
+  position: absolute;
+  top: 0;
+  height: 40vh;
+  width: 100%;
+}
+
+.comet__mobile .hamburger {
+  display: block;
+  position: absolute;
+}
+
+.comet__mobile .desktop-nav {
+  display: none;
+}
+
+.comet__spacer {
+  margin-top: 200px;
+}
+
+.comet__footer {
+  margin-top: 50vh;
+}

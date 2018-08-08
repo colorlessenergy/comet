@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>comet css - a library to help make websites easier</title>
+
+  <link rel="stylesheet" href="comet.css">
+  <link rel="stylesheet" href="page.css">
+
+  <script src="comet.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>COMET: </h1>
+    <p>A css library to make website building easier</p>
+    <p>This is the documentation</p>
+  </header>
+
+  <section class="comet__nav">
+    <h2>the nav</h2>
+
+    <p>the code</p>
+
+    <div>
+      <xmp>
+        <nav class="nav comet__mobile">
+          <!-- for mobile view -->
+          <h1 class="nav__h1">A title goes here</h1>
+          <svg viewBox="0 0 26 17" width="30px" height="100%" class="hamburger">
+            <rect class="hamburger__rect1" x="3" width="20" height="3" rx="1.5" ry="1.5"></rect>
+            <rect class="hamburger__rect2" x="3" y="14" width="20" height="3" rx="1.5" ry="1.5"></rect>
+            <rect class="hamburger__rect3" y="7" width="26" height="3" rx="1.5" ry="1.5"></rect>
+          </svg>
+          <div class="mobile-nav">
+            <ul class="mobile-nav__list-items">
+              <li>
+                <a href="" class="">Home</a>
+              </li>
+              <li>
+                <a href="" class="">About</a>
+              </li>
+              <li>
+                <a href="" class="">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- desktop view -->
+          <ul class="desktop-nav">
+            <li class="desktop-nav__li">
+              <a href="" class="desktop-nav__a">Home</a>
+            </li>
+            <li class="desktop-nav__li">
+              <a href="" class="desktop-nav__a">About</a>
+            </li>
+            <li class="desktop-nav__li">
+              <a href="" class="desktop-nav__a">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </xmp>
+    </div>
+
+    <nav class="nav comet__desktop">
+      <!-- for mobile view -->
+      <h1 class="nav__h1">A title goes here</h1>
+      <!-- desktop view -->
+      <ul class="desktop-nav">
+        <li class="desktop-nav__li">
+          <a href="" class="desktop-nav__a">Home</a>
+        </li>
+        <li class="desktop-nav__li">
+          <a href="" class="desktop-nav__a">About</a>
+        </li>
+        <li class="desktop-nav__li">
+          <a href="" class="desktop-nav__a">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="comet__spacer"></div>
+
+    <p>
+      nav on mobile, it wouldn't normally show the menu just doing
+      it this way to show how it is working
+    </p>
+
+    <nav class="nav comet__mobile">
+      <!-- for mobile view -->
+      <h1 class="nav__h1">A title goes here</h1>
+      <svg viewBox="0 0 26 17" width="30px" height="100%" class="hamburger">
+        <rect class="hamburger__rect1" x="3" width="20" height="3" rx="1.5" ry="1.5"></rect>
+        <rect class="hamburger__rect2" x="3" y="14" width="20" height="3" rx="1.5" ry="1.5"></rect>
+        <rect class="hamburger__rect3" y="7" width="26" height="3" rx="1.5" ry="1.5"></rect>
+      </svg>
+      <div class="mobile-nav">
+        <ul class="mobile-nav__list-items">
+          <li>
+            <a href="" class="">Home</a>
+          </li>
+          <li>
+            <a href="" class="">About</a>
+          </li>
+          <li>
+            <a href="" class="">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <footer class="comet__footer">
+    <p>Comet.css &copy; 2018</p>
+  </footer>
+</body>
+</html>
